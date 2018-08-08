@@ -1,0 +1,12 @@
+module CheckButton(in,out);
+	input in;
+	output [6:0] out;
+	reg[3:0] temp;
+	
+	temp = 4'b0000;
+	SevenSegDisplay(temp,out);
+	always@(in) begin
+		temp = temp + 4'b0001;
+	end
+	
+endmodule

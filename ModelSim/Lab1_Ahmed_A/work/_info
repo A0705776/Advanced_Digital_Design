@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alamin/Documents/ComputerArchitecture/ModelSim
+vFourBitAdder
+Z0 !s110 1487731891
+!i10b 1
+!s100 kb[RC0G<I_OZ8Uh4lbl4B1
+IPbKn6NJde@i]H96@dPk`M1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Alamin/Documents/ADD/ModelSim/Lab1_Ahmed_A
+w1487454186
+8C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\FourBitAdder.v
+FC:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\FourBitAdder.v
+L0 6
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1487731891.000000
+!s107 C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\FourBitAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\FourBitAdder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@four@bit@adder
+vLab1Top_Ahmed_A
+R0
+!i10b 1
+!s100 hReESZgJf4_I;VLImE^Ez3
+IgT9:=R5[Zk=RNaMEATlmd3
+R1
+R2
+w1487687601
+Z7 8C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\Lab1Top_Ahmed_A.v
+Z8 FC:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\Lab1Top_Ahmed_A.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+Z9 !s107 C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\Lab1Top_Ahmed_A.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\Lab1Top_Ahmed_A.v|
+!i113 1
+R5
+R6
+n@lab1@top_@ahmed_@a
+vNumGame
+!s110 1487585350
+!i10b 1
+!s100 mQPmA:4T:6NZnnBZEI83[1
+IZYo?oZGe;]eo=UFd6TS0H2
+R1
+R2
+w1487585166
+R7
+R8
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1487585350.000000
+R9
+R10
+!i113 1
+R5
+R6
+n@num@game
+vSevenSegDisplay
+R0
+!i10b 1
+!s100 d:b=lXj>YigL?SW?ej7Ui2
+I982bTE]WNf28cNF:W_Zad2
+R1
+R2
+w1487716514
+8C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\SevenSegDisplay.v
+FC:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\SevenSegDisplay.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\SevenSegDisplay.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\SevenSegDisplay.v|
+!i113 1
+R5
+R6
+n@seven@seg@display
+vTB_Lab1Top_Ahmed_A
+R0
+!i10b 1
+!s100 TAb<Z0eG56^33f<57>L?J1
+I22XaV9YgJ68_EE<kBkOD32
+R1
+R2
+w1487731888
+8C:/Users/Alamin/Documents/ADD/ModelSim/Lab1_Ahmed_A/TB_Lab1Top_Ahmed_A.v
+FC:/Users/Alamin/Documents/ADD/ModelSim/Lab1_Ahmed_A/TB_Lab1Top_Ahmed_A.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Alamin/Documents/ADD/ModelSim/Lab1_Ahmed_A/TB_Lab1Top_Ahmed_A.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alamin/Documents/ADD/ModelSim/Lab1_Ahmed_A/TB_Lab1Top_Ahmed_A.v|
+!i113 1
+R5
+R6
+n@t@b_@lab1@top_@ahmed_@a

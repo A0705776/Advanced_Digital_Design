@@ -1,0 +1,64 @@
+//ECE5440
+//Alamin Ahmed 5293
+//Lab 2 Number Matching Game with enter/rts and password protection
+//Password Check Module
+module Authentication(clk,rts,password,enter,adderEnable,adderDisable);
+	parameter high 			= 1'b1,
+		  low  			= 1'b0,
+       		  HardCodePassword 	= 6'b011001,
+		  zeros 		= 6'b000000;
+
+	parameter st1 	= 3'b000,
+		  st2 	= 3'b001,
+		  st3 	= 3'b010,
+		  st4 	= 3'b011,
+		  st5 	= 3'b100,
+		  st6 	= 3'b101,
+		  st7 	= 3'b110,
+		  stEnd = 3'b111;	
+
+	input clk, rts, password, enter;
+	output reg adderEnable = low, adderDisable = high;
+	reg[5:0] TempPassword = zeros;
+	reg[2:0] state = st1, nextState = st1;
+
+	always@(enter,rts) begin
+		if(rts == low) begin
+			if(state != stEnd) begin 
+				state = st1; 
+			end
+			else ;
+		end
+		else if(enter == high) begin
+			state = nextState;
+		end
+		else ;
+	end
+
+	always@(state) begin
+		case(state)
+			st1: begin TempPassword = zeros; nextState = st2; end
+			st2: begin TempPassword[0] = password; nextState = st3; end
+			st3: begin TempPassword[1] = password; nextState = st4; end
+			st4: begin TempPassword[2] = password; nextState = st5; end
+			st5: begin TempPassword[3] = password; nextState = st6; end
+			st6: begin TempPassword[4] = password; nextState = st7; end
+			st7: begin 
+				TempPassword[5] = password; 
+ 
+				if(TempPassword == HardCodePassword) begin 
+					AdderEnable = high; 
+					adderDisable = low;
+					nextState = stEnd;
+				end
+				else begin nextState = st1; end
+			end			
+			stEnd: begin nextState = stEnd; end
+			default: begin 
+				nextState = st1; 
+				AdderEnable = low; 
+				adderDisable = high;
+			end
+		endcase
+	end
+endmodule

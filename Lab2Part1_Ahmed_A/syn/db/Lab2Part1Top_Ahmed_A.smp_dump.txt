@@ -1,0 +1,16 @@
+
+State Machine - |Lab2Part1Top_Ahmed_A|Authentication:passCheck|state
+Name state.stEnd state.st6 state.st5 state.st4 state.st3 state.st2 state.st1 
+state.st1 0 0 0 0 0 0 0 
+state.st2 0 0 0 0 0 1 1 
+state.st3 0 0 0 0 1 0 1 
+state.st4 0 0 0 1 0 0 1 
+state.st5 0 0 1 0 0 0 1 
+state.st6 0 1 0 0 0 0 1 
+state.stEnd 1 0 0 0 0 0 1 
+
+State Machine - |Lab2Part1Top_Ahmed_A|ButtonShaper:enterBtn|state
+Name state.pause state.off state.on 
+state.pause 0 0 0 
+state.on 1 0 1 
+state.off 1 1 0 

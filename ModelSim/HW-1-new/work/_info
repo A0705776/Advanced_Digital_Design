@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alamin/Documents/ADD/ModelSim
+vSecurity_System
+Z0 !s110 1486243920
+!i10b 1
+!s100 WHD?UF5@Ri8<W;lVYURNY1
+IW]8kETkYUQ;F^[>hBQoUA2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Alamin/Documents/ADD/ModelSim/HW-1-new
+w1486243626
+8C:/Users/Alamin/Documents/ADD/ModelSim/Security_System.v
+FC:/Users/Alamin/Documents/ADD/ModelSim/Security_System.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1486243920.000000
+!s107 C:/Users/Alamin/Documents/ADD/ModelSim/Security_System.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alamin/Documents/ADD/ModelSim/Security_System.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@security_@system
+vtb_Security_System
+R0
+!i10b 1
+!s100 6`5ADNGG2Jd@TXTNzWYR91
+I<`1kY8n_kkE]e2QaSm:HC0
+R1
+R2
+w1486243650
+8C:/Users/Alamin/Documents/ADD/ModelSim/HW-1-new/tb_Security_System.v
+FC:/Users/Alamin/Documents/ADD/ModelSim/HW-1-new/tb_Security_System.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Alamin/Documents/ADD/ModelSim/HW-1-new/tb_Security_System.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alamin/Documents/ADD/ModelSim/HW-1-new/tb_Security_System.v|
+!i113 1
+R5
+R6
+ntb_@security_@system

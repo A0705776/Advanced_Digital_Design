@@ -1,0 +1,19 @@
+module FourBitReg(enable,enter,rts,in_4_Bit, out_4_Bit);
+	parameter high = 1'b1,
+		  low  = 1'b0,
+		  zeros = 4'b0;
+
+	input enable, rts;
+	input[3:0] in_4_Bit;
+	output reg[3:0] out_4_Bit;
+
+	always@(rts,enter) begin
+		if(enable == high & rts == low) begin
+			out_4_Bit = zeros;
+		end
+		else if(enable == high & enter == high) begin
+			out_4_Bit = in_4_Bit;
+		end
+		else ;
+	end
+endmodule

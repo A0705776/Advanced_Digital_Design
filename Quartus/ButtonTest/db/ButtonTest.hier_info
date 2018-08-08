@@ -1,0 +1,39 @@
+|ButtonTest
+in => in.IN1
+out[0] << CheckButton:comb_3.port1
+out[1] << CheckButton:comb_3.port1
+out[2] << CheckButton:comb_3.port1
+out[3] << CheckButton:comb_3.port1
+out[4] << CheckButton:comb_3.port1
+out[5] << CheckButton:comb_3.port1
+out[6] << CheckButton:comb_3.port1
+
+
+|ButtonTest|CheckButton:comb_3
+in => temp[0].LATCH_ENABLE
+in => temp[1].LATCH_ENABLE
+in => temp[2].LATCH_ENABLE
+in => temp[3].LATCH_ENABLE
+out[0] <= SevenSegDisplay:comb_3.out_7_bit[0]
+out[1] <= SevenSegDisplay:comb_3.out_7_bit[1]
+out[2] <= SevenSegDisplay:comb_3.out_7_bit[2]
+out[3] <= SevenSegDisplay:comb_3.out_7_bit[3]
+out[4] <= SevenSegDisplay:comb_3.out_7_bit[4]
+out[5] <= SevenSegDisplay:comb_3.out_7_bit[5]
+out[6] <= SevenSegDisplay:comb_3.out_7_bit[6]
+
+
+|ButtonTest|CheckButton:comb_3|SevenSegDisplay:comb_3
+in_4_bit[0] => Decoder0.IN3
+in_4_bit[1] => Decoder0.IN2
+in_4_bit[2] => Decoder0.IN1
+in_4_bit[3] => Decoder0.IN0
+out_7_bit[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,89 @@
+|Lab1Top_Ahmed_A
+in_A[0] => in_A[0].IN2
+in_A[1] => in_A[1].IN2
+in_A[2] => in_A[2].IN2
+in_A[3] => in_A[3].IN2
+in_B[0] => in_B[0].IN2
+in_B[1] => in_B[1].IN2
+in_B[2] => in_B[2].IN2
+in_B[3] => in_B[3].IN2
+seg_A[0] << SevenSegDisplay:Display_A.port1
+seg_A[1] << SevenSegDisplay:Display_A.port1
+seg_A[2] << SevenSegDisplay:Display_A.port1
+seg_A[3] << SevenSegDisplay:Display_A.port1
+seg_A[4] << SevenSegDisplay:Display_A.port1
+seg_A[5] << SevenSegDisplay:Display_A.port1
+seg_A[6] << SevenSegDisplay:Display_A.port1
+seg_B[0] << SevenSegDisplay:Display_B.port1
+seg_B[1] << SevenSegDisplay:Display_B.port1
+seg_B[2] << SevenSegDisplay:Display_B.port1
+seg_B[3] << SevenSegDisplay:Display_B.port1
+seg_B[4] << SevenSegDisplay:Display_B.port1
+seg_B[5] << SevenSegDisplay:Display_B.port1
+seg_B[6] << SevenSegDisplay:Display_B.port1
+seg_Sum[0] << SevenSegDisplay:Display_Sum.port1
+seg_Sum[1] << SevenSegDisplay:Display_Sum.port1
+seg_Sum[2] << SevenSegDisplay:Display_Sum.port1
+seg_Sum[3] << SevenSegDisplay:Display_Sum.port1
+seg_Sum[4] << SevenSegDisplay:Display_Sum.port1
+seg_Sum[5] << SevenSegDisplay:Display_Sum.port1
+seg_Sum[6] << SevenSegDisplay:Display_Sum.port1
+
+
+|Lab1Top_Ahmed_A|SevenSegDisplay:Display_A
+in_4_bit[0] => Decoder0.IN3
+in_4_bit[1] => Decoder0.IN2
+in_4_bit[2] => Decoder0.IN1
+in_4_bit[3] => Decoder0.IN0
+out_7_bit[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Top_Ahmed_A|SevenSegDisplay:Display_B
+in_4_bit[0] => Decoder0.IN3
+in_4_bit[1] => Decoder0.IN2
+in_4_bit[2] => Decoder0.IN1
+in_4_bit[3] => Decoder0.IN0
+out_7_bit[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Top_Ahmed_A|FourBitAdder:My_Adder
+in_A[0] => Add0.IN4
+in_A[1] => Add0.IN3
+in_A[2] => Add0.IN2
+in_A[3] => Add0.IN1
+in_B[0] => Add0.IN8
+in_B[1] => Add0.IN7
+in_B[2] => Add0.IN6
+in_B[3] => Add0.IN5
+out[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Top_Ahmed_A|SevenSegDisplay:Display_Sum
+in_4_bit[0] => Decoder0.IN3
+in_4_bit[1] => Decoder0.IN2
+in_4_bit[2] => Decoder0.IN1
+in_4_bit[3] => Decoder0.IN0
+out_7_bit[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out_7_bit[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

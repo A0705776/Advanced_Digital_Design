@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "adderEnable",
+					"strict" : false
+				},
+				{
+					"name" : "adderDisable",
+					"strict" : false
+				},
+				{
+					"name" : "seg_A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_A[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_A[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_A[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_B[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_B[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_B[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_Sum[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_Sum[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_Sum[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_Sum[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_Sum[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_Sum[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_Sum[6]",
+					"strict" : false
+				},
+				{
+					"name" : "password",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rts",
+					"strict" : false
+				},
+				{
+					"name" : "in_A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "enter",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

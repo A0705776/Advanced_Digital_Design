@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alamin/Documents/ADD/ModelSim/Lab1_Ahmed_A
+vButtonTest
+Z0 !s110 1488054449
+!i10b 1
+!s100 1eIm3Mzio>6izPN>_`]ND1
+Ih5LZ@N<NmgINNieSMFFPl0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Alamin/Documents/ADD/ModelSim/ButtonTest
+w1488052675
+8C:/Users/Alamin/Documents/ADD/ModelSim/ButtonTest/ButtonTest.v
+FC:/Users/Alamin/Documents/ADD/ModelSim/ButtonTest/ButtonTest.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1488054449.000000
+!s107 C:/Users/Alamin/Documents/ADD/ModelSim/ButtonTest/ButtonTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alamin/Documents/ADD/ModelSim/ButtonTest/ButtonTest.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@button@test
+vCheckButton
+R0
+!i10b 1
+!s100 lQCb8GJ5dP2mm6GQjYI6J3
+I5oI9nZQ3zn`C8P]bGzSiL2
+R1
+R2
+w1488054445
+8C:\Users\Alamin\Documents\ADD\ModelSim\ButtonTest\CheckButton.v
+FC:\Users\Alamin\Documents\ADD\ModelSim\ButtonTest\CheckButton.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\Alamin\Documents\ADD\ModelSim\ButtonTest\CheckButton.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Alamin\Documents\ADD\ModelSim\ButtonTest\CheckButton.v|
+!i113 1
+R5
+R6
+n@check@button
+vFourBitAdder
+!s110 1488052772
+!i10b 1
+!s100 kb[RC0G<I_OZ8Uh4lbl4B1
+IPbKn6NJde@i]H96@dPk`M1
+R1
+R2
+w1487454186
+8C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\FourBitAdder.v
+FC:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\FourBitAdder.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1488052772.000000
+!s107 C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\FourBitAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\FourBitAdder.v|
+!i113 1
+R5
+R6
+n@four@bit@adder
+vSevenSegDisplay
+R0
+!i10b 1
+!s100 d:b=lXj>YigL?SW?ej7Ui2
+I982bTE]WNf28cNF:W_Zad2
+R1
+R2
+w1487716514
+8C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\SevenSegDisplay.v
+FC:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\SevenSegDisplay.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\SevenSegDisplay.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Alamin\Documents\ADD\ModelSim\Lab1_Ahmed_A\SevenSegDisplay.v|
+!i113 1
+R5
+R6
+n@seven@seg@display
